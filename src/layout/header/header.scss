@@ -1,0 +1,28 @@
+@use "../../scss/abstract/index" as abs;
+
+.header {
+  background-color: abs.$mainColor;
+  padding: 10px 0;
+
+  .navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: abs.$logoFontSize;
+    color: abs.$whiteFontColor;
+    font-weight: abs.$PoppinsExtra;
+  }
+
+  .nav-links {
+    @include abs.space-between;
+
+    .nav-link {
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+    }
+  }
+}

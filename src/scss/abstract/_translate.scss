@@ -1,0 +1,82 @@
+/*
+!*------ Translate ------*!
+!*----- Translate Variables -----*!
+
+//font family ------
+$extraBoldFont: 'pop-extraBold';
+$boldFont: 'pop-bold';
+$semiB-Font: 'pop-semi';
+$bodyFontMed: 'pop-med';
+$regFont: 'pop-reg';
+$lightFont: 'pop-light';
+
+//directions -------
+$left: left;
+$right: right;
+$flex-direction: row;
+
+// icons -----
+$arrow-right: "\f061";
+$arrow-left: "\f060";
+$double-right: "\f101";
+$double-left: "\f100";
+$chevron-left: "\f053";
+$chevron-right: "\f054";
+$long-arrow-left: "\f30a";
+$long-arrow-right: "\f30b";
+$angel-left: "\f104";
+$angel-right: "\f105";
+
+$isRtl: ltr;
+!*------ The Switch ------*!
+@if $isRtl == rtl {
+  //directions -------
+  $left: right;
+  $right: left;
+  $flex-direction: row-reverse;
+
+  // icons -----
+  $arrow-right: "\f060";
+  $arrow-left: "\f061";
+  $double-right: "\f100";
+  $double-left: "\f101";
+  $chevron-left: "\f054";
+  $chevron-right: "\f053";
+  $long-arrow-left: "\f30b";
+  $long-arrow-right: "\f30a";
+  $angel-left: "\f105";
+  $angel-right: "\f104";
+
+  //font family ------
+  $extraBoldFont: 'taj-extraBold';
+  $boldFont: 'taj-bold';
+  $semiB-Font: 'taj-semi';
+  $bodyFontMed: 'taj-med';
+  $regFont: 'taj-reg';
+  $lightFont: 'taj-light';
+} @else {
+  //directions -------
+  $left: left;
+  $right: right;
+  $flex-direction: row;
+
+  // icons -----
+  $arrow-right: "\f061";
+  $arrow-left: "\f060";
+  $double-right: "\f101";
+  $double-left: "\f100";
+  $chevron-left: "\f053";
+  $chevron-right: "\f054";
+  $long-arrow-left: "\f30a";
+  $long-arrow-right: "\f30b";
+  $angel-left: "\f104";
+  $angel-right: "\f105";
+
+  //font family ------
+  $extraBoldFont: 'pop-extraBold';
+  $boldFont: 'pop-bold';
+  $semiB-Font: 'pop-semi';
+  $bodyFontMed: 'pop-med';
+  $regFont: 'pop-reg';
+  $lightFont: 'pop-light';
+}*/
